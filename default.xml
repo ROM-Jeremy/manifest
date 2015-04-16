@@ -19,10 +19,10 @@
   <remote  name="third"
            fetch=".."
            review="review.mfunz.com"
-           revision="refs/heads/cm-12.0" />
+           revision="cm-12.0" />
 
   <default
-           revision="refs/heads/mkl"
+           revision="mkl"
            remote="mokee"
            sync-c="true"
            sync-j="4" />

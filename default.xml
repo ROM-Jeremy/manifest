@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com"
-           revision="refs/tags/android-5.1.0_r5" />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com"
+          review="android-review.googlesource.com"
+          revision="refs/tags/android-5.1.0_r5" />
 
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
-
+  <remote name="private"
+          fetch="ssh://git@github.com" />
+          
+  <remote name="github"
+          fetch="https://github.com" />
+          
   <default revision="cm-12.1"
            remote="github"
            sync-c="true"

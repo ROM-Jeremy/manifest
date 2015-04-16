@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com"
-           revision="refs/tags/android-5.0.2_r1" />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com"
+          review="android-review.googlesource.com"
+          revision="refs/tags/android-5.0.2_r1" />
 
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
+  <remote name="private"
+          fetch="ssh://git@github.com" />
 
-  <remote  name="mokee"
-           fetch=".."
-           review="review.mfunz.com" />
+  <remote name="mokee"
+          fetch=".."
+          review="review.mfunz.com" />
            
   <remote name="github"
           fetch="https://github.com" />
 
-  <remote  name="third"
-           fetch=".."
-           review="review.mfunz.com"
-           revision="cm-12.0" />
+  <remote name="third"
+          fetch=".."
+          review="review.mfunz.com"
+          revision="cm-12.0" />
 
   <default
            revision="mkl"
@@ -61,6 +61,7 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" />
+  <project path="device/qcom/common" name="MoKee/android_device_qcom_common" />
   <project path="device/qcom/sepolicy" name="MoKee/android_device_qcom_sepolicy" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
@@ -420,6 +421,7 @@
   <project path="hardware/qcom/display-caf/msm8916" name="MoKee/android_hardware_qcom_display" groups="qcom,qcom_display" revision="mkl-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8960" name="MoKee/android_hardware_qcom_display" groups="qcom,qcom_display" revision="mkl-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="MoKee/android_hardware_qcom_display" groups="qcom,qcom_display" revision="mkl-caf-8974" />
+  <project path="hardware/qcom/fm" name="MoKee/android_hardware_qcom_fm" />
   <project path="hardware/qcom/gps" remote="third" name="ThirdProject/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" remote="third" name="ThirdProject/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media/default" remote="third" name="ThirdProject/android_hardware_qcom_media" groups="qcom" />

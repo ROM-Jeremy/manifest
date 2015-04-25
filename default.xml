@@ -598,6 +598,6 @@
 
 <!-- Optimus L90 -->
 <project name="Quarx2k/android_device_lg_w7ds" path="device/lge/w7" remote="github" revision="cm-12.1" />
-<project name="ROM-Jeremy/kernel_optimus_l90_pitch" path="kernel/lge/msm8226" remote="github" revision="pitch-lp" />
+<project name="ROM-Jeremy/kernel-optimus-l90-pitch" path="kernel/lge/msm8226" remote="github" revision="pitch-lp" />
 <project name="Quarx2k/proprietary_vendor_lge" remote="github" path="vendor/lge" revision="cm-12.1" />
 </manifest>

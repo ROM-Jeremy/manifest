@@ -7,14 +7,14 @@
            revision="refs/tags/android-5.1.1_r1" />
 
   <remote  name="github"
-           fetch="https://github.com/"
+           fetch="https://github.com/" />
            
   <remote name="bb"
            fetch="https://bitbucket.org/" />
 
   <remote  name="internal"
            fetch="ssh://nameless"
-           revision="n-2.1"
+           revision="n-2.1" />
 
   <default revision="cm-12.1"
            remote="github"

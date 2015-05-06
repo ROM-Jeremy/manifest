@@ -584,7 +584,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" /
+  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
 
   <!-- Optimus L90 -->
   <project name="Quarx2k/android_device_lg_w7ds" path="device/lge/w7" remote="github" revision="cm-12.1" />

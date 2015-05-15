@@ -16,12 +16,12 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/heads/stable/cm-12.1-YOG3C"
+  <default revision="cm-12.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="ROM-Jeremy/build" remote="github" revision="stable/cm-12.1-YOG3C" >
+  <project path="build" name="ROM-Jeremy/pitch_build" remote="github" revision="LP" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 

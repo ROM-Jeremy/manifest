@@ -38,6 +38,7 @@
   <project path="frameworks/av" name="temasek/android_frameworks_av" remote="github" revision="cm-12.1" />
   <project path="frameworks/base" name="temasek/android_frameworks_base" remote="github" revision="cm-12.1" />
   <project path="frameworks/native" name="temasek/android_frameworks_native" remote="github" revision="cm-12.1" />
+  <project path="frameworks/opt/cards" name="temasek/frameworks_opt_cards" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/net/wifi" name="temasek/android_frameworks_opt_net_wifi" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/telephony" name="temasek/android_frameworks_opt_telephony" remote="github" revision="cm-12.1" />
   <project path="frameworks/webview" name="arter97/android_frameworks_webview" remote="github" revision="cm-12.1" />
@@ -348,7 +349,6 @@
   <!--<project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />-->
   <project path="external/square/dagger" name="CyanogenMod/android_external_square_dagger" />
   <project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" />
-  <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" />

@@ -559,9 +559,6 @@
   <!-- OTA Updates -->
   <project path="packages/apps/OTAUpdates" name="Kryten2k35/OTAUpdates" remote="github" revision="aosp" />
   
-  <!-- SlimWallpaperPicker -->
-  <project name="SlimSaber/packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="github" revision="lp5.1" />
-  
   <!-- LG Optimus L90 Specific Repositories -->
   <project name="ROM-Jeremy/android_device_lg_w7ds" path="device/lge/w7" remote="github" revision="slim" />
   <project name="ROM-Jeremy/android_kernel_lge_msm8226" path="kernel/lge/msm8226" remote="github" revision="LP" />

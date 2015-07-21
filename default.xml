@@ -557,7 +557,7 @@
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="lp5.1" />
   
   <!-- OTA Updates -->
-  <project path="packages/apps/OTAUpdates" name="Kryten2k35/OTAUpdates" remote="github" revision="aosp" />
+  <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" remote="github" revision="aosp" />
   
   <!-- LG Optimus L90 Specific Repositories -->
   <project name="ROM-Jeremy/android_device_lg_w7ds" path="device/lge/w7" remote="github" revision="slim" />

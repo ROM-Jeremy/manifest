@@ -559,6 +559,9 @@
   <!-- OTA Updates -->
   <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" remote="github" revision="aosp" />
   
+  <!-- Anti-piracy support -->
+  <project path="packages/services/AntiPiracy" name="AlmightyMegadeth00/AntiPiracySupport" remote="github" revision="master" />
+  
   <!-- LG Optimus L90 Specific Repositories -->
   <project name="ROM-Jeremy/android_device_lg_w7ds" path="device/lge/w7" remote="github" revision="slim" />
   <project name="ROM-Jeremy/android_kernel_lge_msm8226" path="kernel/lge/msm8226" remote="github" revision="LP" />

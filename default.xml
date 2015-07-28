@@ -19,7 +19,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="ROM-Jeremy/android_art" remote="github" revision="lp5.1"  />
+  <project path="art" name="SlimRoms/android_art" remote="github" revision="lp5.1"  />
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="lp5.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="lp5.1" />
@@ -389,13 +389,13 @@
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="lp5.1" />
   <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="lp5.1" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="lp5.1" />
-  <project path="libcore" name="ROM-Jeremy/platform_libcore" remote="github" revision="lp5.1" />
+  <project path="libcore" name="TeamOrion/platform_libcore" remote="github" revision="lp5.1" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AudioFX" name="ROM-Jeremy/packages_apps_AudioFX" remote="github" revision="lp5.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="lp5.1" />
-  <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="lp5.1" />
+  <project path="packages/apps/Browser" name="TeamOrion/packages_apps_Browser" remote="github" revision="lp5.1" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="lp5.1" />
   <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="github" revision="lp5.1" />
@@ -446,7 +446,7 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="SlimRoms/packages_services_Mms" remote="github" revision="lp5.1" />
   <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" remote="github" revision="lp5.1" />
-  <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" remote="github" revision="lp5.1" />
+  <project path="packages/services/Telephony" name="TeamOrion/packages_services_Telephony" remote="github" revision="lp5.1" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />

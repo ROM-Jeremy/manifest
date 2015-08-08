@@ -470,7 +470,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="platform_manifest" name="ROM-Jeremy/manifest" remote="github" revision="lp5.1" />
+  <project path="platform_manifest" name="ROM-Jeremy/manifest" remote="github" revision="slim" />
 
   <!-- SlimVendor -->
   <project path="vendor/slim" name="ROM-Jeremy/vendor_slim" remote="github" revision="lp5.1" />

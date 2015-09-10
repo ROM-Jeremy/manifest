@@ -502,8 +502,8 @@
   <project path="packages/services/AntiPiracy" name="AlmightyMegadeth00/AntiPiracySupport" remote="github" revision="master" />
   
   <!-- LG Optimus L90 Specific Repositories -->
-  <project name="UberSlim/android_device_lg_w7ds" path="device/lge/w7" remote="github" revision="slim" />
-  <project name="UberSlim/KernelSanders_L90" path="kernel/lge/msm8226" remote="github" revision="LP" />
+  <project name="UberSlim/android_device_lg_w7ds" path="device/lge/w7" remote="github" revision="lp5.1" />
+  <project name="UberSlim/KernelSanders_L90" path="kernel/lge/msm8226" remote="github" revision="lp5.1" />
   <project name="ROM-Jeremy/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="LP" />
 
 </manifest>
